@@ -6,7 +6,7 @@ async function searchNews(q) {
   const response = await fetch(`https://rapidapi.p.rapidapi.com/search?freshness=Day&textFormat=Raw&safeSearch=Strict&q=${q}`, {
     "method": "GET",
     "headers": {
-      "x-rapidapi-key": "",
+      "x-rapidapi-key": "2951e43c9amsh72f24ba7d4a41fdp1eb9e9jsn9d2d23094042",
       "x-rapidapi-host": "microsoft-azure-bing-news-search-v1.p.rapidapi.com",
       "x-bingapis-sdk": "true"
     }
